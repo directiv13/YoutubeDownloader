@@ -36,7 +36,6 @@ namespace YoutubeDownloader
 
         private void buttonSearch_Click(object sender, EventArgs e)
         {
-
             string htmlQuery = scrapper.MakeSearch(textBoxSearch.Text);
 
             //get thumbnail

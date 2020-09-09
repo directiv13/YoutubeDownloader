@@ -12,7 +12,6 @@ namespace YoutubeDownloader
 {
     public partial class SearchResult : UserControl
     {
-        YoutubeScrapper scrapper;
         public PictureBox[] pictureBoxCollection
         {
             get
