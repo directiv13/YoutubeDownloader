@@ -31,21 +31,21 @@
             this.title2 = new System.Windows.Forms.TextBox();
             this.title1 = new System.Windows.Forms.TextBox();
             this.title0 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.videoButton2 = new System.Windows.Forms.Button();
+            this.audioButton2 = new System.Windows.Forms.Button();
+            this.videoButton1 = new System.Windows.Forms.Button();
+            this.audioButton1 = new System.Windows.Forms.Button();
+            this.videoButton0 = new System.Windows.Forms.Button();
+            this.audioButton0 = new System.Windows.Forms.Button();
             this.title5 = new System.Windows.Forms.TextBox();
             this.title4 = new System.Windows.Forms.TextBox();
             this.title3 = new System.Windows.Forms.TextBox();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.videoButton5 = new System.Windows.Forms.Button();
+            this.audioButton5 = new System.Windows.Forms.Button();
+            this.videoButton4 = new System.Windows.Forms.Button();
+            this.audioButton4 = new System.Windows.Forms.Button();
+            this.videoButton3 = new System.Windows.Forms.Button();
+            this.audioButton3 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -96,83 +96,89 @@
             this.title0.Size = new System.Drawing.Size(207, 47);
             this.title0.TabIndex = 84;
             // 
-            // button5
+            // videoButton2
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(603, 203);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(100, 46);
-            this.button5.TabIndex = 83;
-            this.button5.Text = "MP4";
-            this.button5.UseVisualStyleBackColor = false;
+            this.videoButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
+            this.videoButton2.FlatAppearance.BorderSize = 0;
+            this.videoButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.videoButton2.Location = new System.Drawing.Point(603, 203);
+            this.videoButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.videoButton2.Name = "videoButton2";
+            this.videoButton2.Size = new System.Drawing.Size(100, 46);
+            this.videoButton2.TabIndex = 83;
+            this.videoButton2.Text = "MP4";
+            this.videoButton2.UseVisualStyleBackColor = false;
+            this.videoButton2.Click += new System.EventHandler(this.buttonMP4_click);
             // 
-            // button6
+            // audioButton2
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(496, 203);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(100, 46);
-            this.button6.TabIndex = 82;
-            this.button6.Text = "MP3";
-            this.button6.UseVisualStyleBackColor = false;
+            this.audioButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
+            this.audioButton2.FlatAppearance.BorderSize = 0;
+            this.audioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.audioButton2.Location = new System.Drawing.Point(496, 203);
+            this.audioButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.audioButton2.Name = "audioButton2";
+            this.audioButton2.Size = new System.Drawing.Size(100, 46);
+            this.audioButton2.TabIndex = 82;
+            this.audioButton2.Text = "MP3";
+            this.audioButton2.UseVisualStyleBackColor = false;
+            this.audioButton2.Click += new System.EventHandler(this.buttonMP3_click);
             // 
-            // button7
+            // videoButton1
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(369, 203);
-            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(100, 46);
-            this.button7.TabIndex = 81;
-            this.button7.Text = "MP4";
-            this.button7.UseVisualStyleBackColor = false;
+            this.videoButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
+            this.videoButton1.FlatAppearance.BorderSize = 0;
+            this.videoButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.videoButton1.Location = new System.Drawing.Point(369, 203);
+            this.videoButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.videoButton1.Name = "videoButton1";
+            this.videoButton1.Size = new System.Drawing.Size(100, 46);
+            this.videoButton1.TabIndex = 81;
+            this.videoButton1.Text = "MP4";
+            this.videoButton1.UseVisualStyleBackColor = false;
+            this.videoButton1.Click += new System.EventHandler(this.buttonMP4_click);
             // 
-            // button8
+            // audioButton1
             // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(261, 203);
-            this.button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(100, 46);
-            this.button8.TabIndex = 80;
-            this.button8.Text = "MP3";
-            this.button8.UseVisualStyleBackColor = false;
+            this.audioButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
+            this.audioButton1.FlatAppearance.BorderSize = 0;
+            this.audioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.audioButton1.Location = new System.Drawing.Point(261, 203);
+            this.audioButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.audioButton1.Name = "audioButton1";
+            this.audioButton1.Size = new System.Drawing.Size(100, 46);
+            this.audioButton1.TabIndex = 80;
+            this.audioButton1.Text = "MP3";
+            this.audioButton1.UseVisualStyleBackColor = false;
+            this.audioButton1.Click += new System.EventHandler(this.buttonMP3_click);
             // 
-            // button9
+            // videoButton0
             // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(133, 203);
-            this.button9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(100, 46);
-            this.button9.TabIndex = 79;
-            this.button9.Text = "MP4";
-            this.button9.UseVisualStyleBackColor = false;
+            this.videoButton0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
+            this.videoButton0.FlatAppearance.BorderSize = 0;
+            this.videoButton0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.videoButton0.Location = new System.Drawing.Point(133, 203);
+            this.videoButton0.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.videoButton0.Name = "videoButton0";
+            this.videoButton0.Size = new System.Drawing.Size(100, 46);
+            this.videoButton0.TabIndex = 79;
+            this.videoButton0.Text = "MP4";
+            this.videoButton0.UseVisualStyleBackColor = false;
+            this.videoButton0.Click += new System.EventHandler(this.buttonMP4_click);
             // 
-            // button10
+            // audioButton0
             // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(28, 203);
-            this.button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(100, 46);
-            this.button10.TabIndex = 78;
-            this.button10.Text = "MP3";
-            this.button10.UseVisualStyleBackColor = false;
+            this.audioButton0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
+            this.audioButton0.FlatAppearance.BorderSize = 0;
+            this.audioButton0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.audioButton0.Location = new System.Drawing.Point(28, 203);
+            this.audioButton0.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.audioButton0.Name = "audioButton0";
+            this.audioButton0.Size = new System.Drawing.Size(100, 46);
+            this.audioButton0.TabIndex = 78;
+            this.audioButton0.Text = "MP3";
+            this.audioButton0.UseVisualStyleBackColor = false;
+            this.audioButton0.Click += new System.EventHandler(this.buttonMP3_click);
             // 
             // title5
             // 
@@ -210,83 +216,89 @@
             this.title3.Size = new System.Drawing.Size(207, 47);
             this.title3.TabIndex = 75;
             // 
-            // button15
+            // videoButton5
             // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Location = new System.Drawing.Point(603, 455);
-            this.button15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(100, 46);
-            this.button15.TabIndex = 74;
-            this.button15.Text = "MP4";
-            this.button15.UseVisualStyleBackColor = false;
+            this.videoButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
+            this.videoButton5.FlatAppearance.BorderSize = 0;
+            this.videoButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.videoButton5.Location = new System.Drawing.Point(603, 455);
+            this.videoButton5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.videoButton5.Name = "videoButton5";
+            this.videoButton5.Size = new System.Drawing.Size(100, 46);
+            this.videoButton5.TabIndex = 74;
+            this.videoButton5.Text = "MP4";
+            this.videoButton5.UseVisualStyleBackColor = false;
+            this.videoButton5.Click += new System.EventHandler(this.buttonMP4_click);
             // 
-            // button16
+            // audioButton5
             // 
-            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
-            this.button16.FlatAppearance.BorderSize = 0;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Location = new System.Drawing.Point(496, 455);
-            this.button16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(100, 46);
-            this.button16.TabIndex = 73;
-            this.button16.Text = "MP3";
-            this.button16.UseVisualStyleBackColor = false;
+            this.audioButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
+            this.audioButton5.FlatAppearance.BorderSize = 0;
+            this.audioButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.audioButton5.Location = new System.Drawing.Point(496, 455);
+            this.audioButton5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.audioButton5.Name = "audioButton5";
+            this.audioButton5.Size = new System.Drawing.Size(100, 46);
+            this.audioButton5.TabIndex = 73;
+            this.audioButton5.Text = "MP3";
+            this.audioButton5.UseVisualStyleBackColor = false;
+            this.audioButton5.Click += new System.EventHandler(this.buttonMP3_click);
             // 
-            // button13
+            // videoButton4
             // 
-            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Location = new System.Drawing.Point(369, 455);
-            this.button13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(100, 46);
-            this.button13.TabIndex = 72;
-            this.button13.Text = "MP4";
-            this.button13.UseVisualStyleBackColor = false;
+            this.videoButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
+            this.videoButton4.FlatAppearance.BorderSize = 0;
+            this.videoButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.videoButton4.Location = new System.Drawing.Point(369, 455);
+            this.videoButton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.videoButton4.Name = "videoButton4";
+            this.videoButton4.Size = new System.Drawing.Size(100, 46);
+            this.videoButton4.TabIndex = 72;
+            this.videoButton4.Text = "MP4";
+            this.videoButton4.UseVisualStyleBackColor = false;
+            this.videoButton4.Click += new System.EventHandler(this.buttonMP4_click);
             // 
-            // button14
+            // audioButton4
             // 
-            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Location = new System.Drawing.Point(261, 455);
-            this.button14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(100, 46);
-            this.button14.TabIndex = 71;
-            this.button14.Text = "MP3";
-            this.button14.UseVisualStyleBackColor = false;
+            this.audioButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
+            this.audioButton4.FlatAppearance.BorderSize = 0;
+            this.audioButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.audioButton4.Location = new System.Drawing.Point(261, 455);
+            this.audioButton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.audioButton4.Name = "audioButton4";
+            this.audioButton4.Size = new System.Drawing.Size(100, 46);
+            this.audioButton4.TabIndex = 71;
+            this.audioButton4.Text = "MP3";
+            this.audioButton4.UseVisualStyleBackColor = false;
+            this.audioButton4.Click += new System.EventHandler(this.buttonMP3_click);
             // 
-            // button11
+            // videoButton3
             // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Location = new System.Drawing.Point(133, 455);
-            this.button11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(100, 46);
-            this.button11.TabIndex = 70;
-            this.button11.Text = "MP4";
-            this.button11.UseVisualStyleBackColor = false;
+            this.videoButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
+            this.videoButton3.FlatAppearance.BorderSize = 0;
+            this.videoButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.videoButton3.Location = new System.Drawing.Point(133, 455);
+            this.videoButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.videoButton3.Name = "videoButton3";
+            this.videoButton3.Size = new System.Drawing.Size(100, 46);
+            this.videoButton3.TabIndex = 70;
+            this.videoButton3.Text = "MP4";
+            this.videoButton3.UseVisualStyleBackColor = false;
+            this.videoButton3.Click += new System.EventHandler(this.buttonMP4_click);
             // 
-            // button12
+            // audioButton3
             // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Location = new System.Drawing.Point(28, 455);
-            this.button12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(100, 46);
-            this.button12.TabIndex = 69;
-            this.button12.Text = "MP3";
-            this.button12.UseVisualStyleBackColor = false;
+            this.audioButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(166)))));
+            this.audioButton3.FlatAppearance.BorderSize = 0;
+            this.audioButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.audioButton3.Location = new System.Drawing.Point(28, 455);
+            this.audioButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.audioButton3.Name = "audioButton3";
+            this.audioButton3.Size = new System.Drawing.Size(100, 46);
+            this.audioButton3.TabIndex = 69;
+            this.audioButton3.Text = "MP3";
+            this.audioButton3.UseVisualStyleBackColor = false;
+            this.audioButton3.Click += new System.EventHandler(this.buttonMP3_click);
             // 
             // pictureBox5
             // 
@@ -351,21 +363,21 @@
             this.Controls.Add(this.title2);
             this.Controls.Add(this.title1);
             this.Controls.Add(this.title0);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button10);
+            this.Controls.Add(this.videoButton2);
+            this.Controls.Add(this.audioButton2);
+            this.Controls.Add(this.videoButton1);
+            this.Controls.Add(this.audioButton1);
+            this.Controls.Add(this.videoButton0);
+            this.Controls.Add(this.audioButton0);
             this.Controls.Add(this.title5);
             this.Controls.Add(this.title4);
             this.Controls.Add(this.title3);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button12);
+            this.Controls.Add(this.videoButton5);
+            this.Controls.Add(this.audioButton5);
+            this.Controls.Add(this.videoButton4);
+            this.Controls.Add(this.audioButton4);
+            this.Controls.Add(this.videoButton3);
+            this.Controls.Add(this.audioButton3);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -392,21 +404,21 @@
         private System.Windows.Forms.TextBox title2;
         private System.Windows.Forms.TextBox title1;
         private System.Windows.Forms.TextBox title0;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button videoButton2;
+        private System.Windows.Forms.Button audioButton2;
+        private System.Windows.Forms.Button videoButton1;
+        private System.Windows.Forms.Button audioButton1;
+        private System.Windows.Forms.Button videoButton0;
+        private System.Windows.Forms.Button audioButton0;
         private System.Windows.Forms.TextBox title5;
         private System.Windows.Forms.TextBox title4;
         private System.Windows.Forms.TextBox title3;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button videoButton5;
+        private System.Windows.Forms.Button audioButton5;
+        private System.Windows.Forms.Button videoButton4;
+        private System.Windows.Forms.Button audioButton4;
+        private System.Windows.Forms.Button videoButton3;
+        private System.Windows.Forms.Button audioButton3;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;

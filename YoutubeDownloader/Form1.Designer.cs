@@ -39,6 +39,7 @@
             this.buttonOff = new System.Windows.Forms.Button();
             this.panelNavigation = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
@@ -46,7 +47,6 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
-            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.searchResult1 = new YoutubeDownloader.SearchResult();
             this.panelNavigation.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -157,7 +157,6 @@
             this.panelNavigation.Name = "panelNavigation";
             this.panelNavigation.Size = new System.Drawing.Size(216, 519);
             this.panelNavigation.TabIndex = 8;
-            this.panelNavigation.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // panel4
             // 
@@ -176,6 +175,16 @@
             this.panel4.Size = new System.Drawing.Size(948, 100);
             this.panel4.TabIndex = 9;
             // 
+            // pictureBoxLogo
+            // 
+            this.pictureBoxLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogo.Image")));
+            this.pictureBoxLogo.Location = new System.Drawing.Point(12, 12);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(85, 73);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxLogo.TabIndex = 14;
+            this.pictureBoxLogo.TabStop = false;
+            // 
             // panel2
             // 
             this.panel2.Location = new System.Drawing.Point(215, 100);
@@ -187,7 +196,7 @@
             // panel1
             // 
             this.panel1.Location = new System.Drawing.Point(212, 100);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(736, 516);
             this.panel1.TabIndex = 13;
@@ -214,7 +223,6 @@
             this.textBox2.TabIndex = 10;
             this.textBox2.Text = "Welcome to YoutubeDownloader";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
@@ -256,24 +264,16 @@
             this.directorySearcher1.ServerPageTimeLimit = System.TimeSpan.Parse("-00:00:01");
             this.directorySearcher1.ServerTimeLimit = System.TimeSpan.Parse("-00:00:01");
             // 
-            // pictureBoxLogo
-            // 
-            this.pictureBoxLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogo.Image")));
-            this.pictureBoxLogo.Location = new System.Drawing.Point(12, 12);
-            this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(85, 73);
-            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxLogo.TabIndex = 14;
-            this.pictureBoxLogo.TabStop = false;
-            // 
             // searchResult1
             // 
             this.searchResult1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(234)))));
             this.searchResult1.Location = new System.Drawing.Point(212, 100);
             this.searchResult1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.searchResult1.Name = "searchResult1";
+            this.searchResult1.SearchText = null;
             this.searchResult1.Size = new System.Drawing.Size(733, 513);
             this.searchResult1.TabIndex = 13;
+            this.searchResult1.Load += new System.EventHandler(this.searchResult1_Load);
             // 
             // Form1
             // 
